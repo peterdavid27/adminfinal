@@ -11,7 +11,7 @@ namespace WebApplication1
     public partial class Login : System.Web.UI.Page
     {
 
-        public SqlConnection cn = new SqlConnection("Data Source=JOANFERNANDEZ;Initial Catalog=Login;Integrated Security=True");
+        public SqlConnection cn = new SqlConnection("Data Source=DESKTOP-FVTS8NC;Initial Catalog=COURRIER;Integrated Security=True");
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -20,7 +20,7 @@ namespace WebApplication1
         protected void Button1_Click(object sender, EventArgs e)
         {
             cn.Open();
-            string query = "select count(*) from Cliente where Usuario= @usuario and Clave = @password";
+            string query = "select count(*) from CLIENTES where USUARIO= @usuario and CLAVE = @password";
             SqlCommand cm = new SqlCommand(query, cn);
             cm.Parameters.AddWithValue("@usuario", TextBox1.Text);
             cm.Parameters.AddWithValue("@password", TextBox2.Text);
