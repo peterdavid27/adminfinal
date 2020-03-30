@@ -20,9 +20,13 @@ body {
     width: 300px;
     height: 375px;
     margin-left: 400px;
-    margin-top:-380px;
+    margin-top:-390px;
     background: #5186E1;
     border-radius: 16px;
+}
+.margin-bottom {
+    margin-bottom: 18px;
+    font-size: 15px;
 }
 
 .text-form {
@@ -503,7 +507,7 @@ ul#infoFooter {
 
         .social ul li .icon-facebook {
             background: #3b5998;
-            background: url(../images/icons8-facebook-24.png) no-repeat;
+            background: url(../images/facebook.png) no-repeat;
         }
         /* Establecemos los colores de cada red social, aprovechando su class */
         .social ul li .icon-twitter {
@@ -513,17 +517,17 @@ ul#infoFooter {
 
         .social ul li .icon-googleplus {
             background: #d95232;
-            background: url(../images/icons8-google-plus-30.png) no-repeat;
+            background: url(../images/g+.png) no-repeat;
         }
 
         .social ul li .icon-pinterest {
             background: #ae181f;
-            background: url(../images/icons8-pinterest-30.png) no-repeat;
+            background: url(../images/pt.png) no-repeat;
         }
 
         .social ul li .icon-mail {
             background: #666666;
-            background: url(../images/icons8-enviar-correo-electrónico-masivo-30.png) no-repeat;
+            background: url(../images/email.png) no-repeat;
         }
 
         .social ul li a:hover {

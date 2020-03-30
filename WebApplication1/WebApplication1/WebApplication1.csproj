@@ -180,7 +180,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="images\barco.jpg" />
     <Content Include="images\barco.png" />
     <Content Include="images\bg1.jpg" />
     <Content Include="images\Exportacion.png" />
@@ -193,11 +192,7 @@
     <Content Include="images\icomoon\fonts\icomoon.svg" />
     <Content Include="images\icomoon\Read Me.txt" />
     <Content Include="images\icomoon\style.css" />
-    <Content Include="images\icons8-enviar-correo-electrónico-masivo-30.png" />
-    <Content Include="images\icons8-facebook-24.png" />
-    <Content Include="images\icons8-google-plus-30.png" />
     <Content Include="images\icons8-google-web-search-96.png" />
-    <Content Include="images\icons8-pinterest-30.png" />
     <Content Include="images\icons8-twitter-30.png" />
     <Content Include="images\Importacion.png" />
     <Content Include="images\logo.png" />
@@ -259,6 +254,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
