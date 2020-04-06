@@ -135,6 +135,8 @@
     <Compile Include="CLIENTES.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\ADMINISTRADORsController.cs" />
+    <Compile Include="Controllers\CLIENTESController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -256,6 +258,20 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\View.cshtml" />
+    <Content Include="Views\ADMINISTRADORs\Create.cshtml" />
+    <Content Include="Views\ADMINISTRADORs\Delete.cshtml" />
+    <Content Include="Views\ADMINISTRADORs\Details.cshtml" />
+    <Content Include="Views\ADMINISTRADORs\Edit.cshtml" />
+    <Content Include="Views\ADMINISTRADORs\Index.cshtml" />
+    <Content Include="Views\ADMINISTRADORs\mierda.cshtml" />
+    <Content Include="Views\ADMINISTRADORs\ppp.cshtml" />
+    <Content Include="Views\CLIENTES\Create.cshtml" />
+    <Content Include="Views\CLIENTES\Delete.cshtml" />
+    <Content Include="Views\CLIENTES\Details.cshtml" />
+    <Content Include="Views\CLIENTES\Edit.cshtml" />
+    <Content Include="Views\CLIENTES\Index.cshtml" />
+    <Content Include="Views\Home\MyPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
